@@ -25,6 +25,8 @@ def get_knn_index(coor_q, coor_k=None):
 
 def get_graph_feature(x, knn_index, x_q=None):
         print("knn_index_shape: ",knn_index.shape, "knn_index: ", knn_index)
+        #breakpoint()
+        print("knn_index_shape: ",knn_index.shape, "knn_index: ", knn_index)
 
         #x: bs, np, c, knn_index: bs*k*np
         k = 8
