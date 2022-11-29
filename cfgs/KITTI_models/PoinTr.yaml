@@ -29,9 +29,9 @@ dataset : {
             others: {subset: 'test'}}}
 
 model : {
-  NAME: PoinTr, num_pred: 14336, num_query: 224, knn_layer: 1, trans_dim: 384}
-total_bs : 64
+  NAME: PoinTr, num_pred: 14336, num_query: 224, knn_layer: 1, trans_dim: 192}
+total_bs : 52
 step_per_update : 1
-max_epoch : 600
+max_epoch : 10
 
 consider_metric: CDL1
