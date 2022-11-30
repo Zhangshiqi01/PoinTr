@@ -61,4 +61,4 @@ dgcnn_group.py
 
 # 实验：
 - 找替换DGCNN的方法。
-
+- 用PCN粗点云替换transformer得到的粗点云
